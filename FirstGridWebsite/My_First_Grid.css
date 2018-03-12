@@ -1,0 +1,60 @@
+
+Header {
+    background-color: skyblue;
+}
+main {
+    background-color: white;
+}
+footer{
+    background-color: green;
+    
+}
+.body_content {
+    background-color: slategrey;
+}
+
+.left-col {
+    background-color: grey;
+}
+.middle-col {
+    background-color: aqua;
+}
+.right-col {
+    background-color: teal;
+}
+.sidebar_content{
+    background-color: ;
+}
+
+
+
+@media (min-width: 992px) {
+    header {
+    background-color: orange;
+        }
+    .list-header {
+    padding-left: 0;
+    list-style: none;
+    }
+}
+  
+@media (max-width: 991px) {
+    header{
+        background-color:purple;
+    }
+.list-header {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+    text-align: center;
+}
+.list-header > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+    
+}
+
+    
+
+}

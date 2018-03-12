@@ -1,0 +1,19 @@
+Header {
+    background-color: yellow;
+}
+main {
+    background-color: white;
+}
+footer{
+    background-color: cornflowerblue;
+    }
+
+.left-col {
+    background-color: green;
+}
+.middle-col {
+    background-color: greenyellow;
+}
+.right-col {
+    background-color: aqua;
+}

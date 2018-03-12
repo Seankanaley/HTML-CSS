@@ -1,0 +1,28 @@
+
+.Table {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Table-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Table-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.Table-row-item {
+    margin: 10px;
+}
+
+.striped {
+    background-color: whitesmoke;
+}

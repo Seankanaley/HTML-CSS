@@ -1,0 +1,41 @@
+main {
+    background-color: 
+    padding-top: 10px;
+}
+.navbar-default{
+    background-color: #8eadca;
+}
+
+.navbar-brand {
+    height: 100%;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.btn-primary
+{
+    color: #fff;
+    background-color: #8eadca;
+    border-color: #8eadca;
+}
+.navbar-toggle 
+{
+    background-color: white;
+}
+
+.navbar-toggle .icon-bar
+{
+    background-color: #8eadca !important;
+}
+
+@media(max-width: 767px)
+{
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a
+    {
+        color: white;
+    }
+}
+
